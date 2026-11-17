@@ -8,5 +8,8 @@
     "deploy": "wrangler deploy",
     "db:create": "wrangler d1 create radiant-research-db",
     "db:migrate": "wrangler d1 migrations apply radiant-research-db"
+  },
+  "devDependencies": {
+    "wrangler": "^4.163.0"
   }
 }
