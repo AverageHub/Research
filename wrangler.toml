@@ -9,7 +9,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "radiant-research-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "409b8142-8d91-42a3-bb7c-172210c36160"
 migrations_dir = "migrations"
 
 [triggers]
