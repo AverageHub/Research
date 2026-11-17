@@ -1,4 +1,4 @@
-name = "radiant-research-cloud"
+name = "research"
 main = "src/worker.js"
 compatibility_date = "2026-11-17"
 
@@ -10,8 +10,6 @@ binding = "ASSETS"
 binding = "DB"
 database_name = "radiant-research-db"
 database_id = "409b8142-8d91-42a3-bb7c-172210c36160"
-migrations_dir = "migrations"
 
 [triggers]
-# Runs every 15 minutes. Each invocation processes a small, resumable batch.
 crons = ["*/15 * * * *"]
